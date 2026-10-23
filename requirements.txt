@@ -1,0 +1,15 @@
+fastapi>=0.110
+uvicorn[standard]>=0.27
+streamlit>=1.32
+pydantic>=2.6
+pdfplumber>=0.11
+PyMuPDF>=1.24
+pandas>=2.1
+plotly>=5.20
+python-multipart>=0.0.9
+python-dotenv>=1.0
+requests>=2.31
+openai>=1.68.0
+pytest>=8.0
+yfinance>=1.7.0
+feedparser>=6.0.10

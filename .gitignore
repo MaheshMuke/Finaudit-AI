@@ -1,0 +1,84 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+*.cover
+
+# ========================
+# Environment & Secrets
+# ========================
+.env
+.env.local
+.env.*.local
+
+# ========================
+# Next.js / Node (frontend)
+# ========================
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+node_modules/
+
+# ========================
+# ChromaDB & Vector Stores
+# ========================
+chroma/
+temp_*/
+
+# ========================
+# Cached Data & Outputs
+# ========================
+cache/
+output/
+finaudit_output/
+fin_audit_test_reports/
+finaudit_download_test/
+finaudit_test/
+data/
+
+# ========================
+# Database files
+# ========================
+*.db
+*.sqlite3
+
+# ========================
+# IDE & Editor
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ========================
+# Scratch / Debug files
+# ========================
+nse_response.html
+test.pdf
+*.log
+
+# ========================
+# OS files
+# ========================
+Desktop.ini
+ehthumbs.db
